@@ -1,5 +1,5 @@
-/target
-/excel
-/logs
-/screenshots
-/reports
+target/
+excel/
+logs/
+screenshots/
+reports/
