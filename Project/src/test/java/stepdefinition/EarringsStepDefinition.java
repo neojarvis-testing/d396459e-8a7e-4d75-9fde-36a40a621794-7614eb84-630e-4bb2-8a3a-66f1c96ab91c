@@ -10,7 +10,7 @@ import pages.HomepageEarringsAction;
  * Description: This class defines the step definitions for the Cucumber tests related to the Reliance Jewels website.
  * It includes steps for verifying the logo, hovering over earrings, clicking on drops, verifying the URL, and interacting with various elements on the page.
  */
-public class RelianceStepDefinition {
+public class EarringsStepDefinition {
 
     HomepageEarringsAction home = new HomepageEarringsAction();
 
