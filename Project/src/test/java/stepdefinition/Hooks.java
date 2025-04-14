@@ -2,7 +2,6 @@ package stepdefinition;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
@@ -11,11 +10,6 @@ import io.cucumber.java.Scenario;
 import utils.Base;
 import utils.Reporter;
 
-/**
- * Creator: Akash Deep
- * Description: This class provides hooks for setting up and tearing down the test environment.
- * It initializes the ExtentReports, opens the browser before each scenario, and closes the browser after each scenario.
- */
 public class Hooks extends Base {
 
     public static ExtentReports reports;
@@ -27,13 +21,13 @@ public class Hooks extends Base {
     }
 
     @Before
-    public void launch(Scenario sc) {
+    public void open(Scenario sc) throws Exception {
         openBrowser();
         test = reports.createTest(sc.getName());
     }
 
     @After
-    public void closing() {
+    public void close() {
         driver.quit();
     }
 
