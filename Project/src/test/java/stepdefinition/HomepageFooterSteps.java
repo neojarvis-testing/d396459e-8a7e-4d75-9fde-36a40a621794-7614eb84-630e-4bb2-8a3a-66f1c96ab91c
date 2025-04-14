@@ -9,8 +9,8 @@ public class HomepageFooterSteps {
 
     HomepageFooterActions homepageFooter = new HomepageFooterActions();
 
-    @Given("the user is on the homepage")
-    public void the_user_is_on_the_homepage() {
+    @Given("the user is on the homepagesss")
+    public void the_user_is_on_the_homepagesss() {
         // Assuming the homepage is already loaded
     }
 
