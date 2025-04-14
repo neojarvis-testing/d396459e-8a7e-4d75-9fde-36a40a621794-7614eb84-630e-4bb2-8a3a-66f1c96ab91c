@@ -1,6 +1,5 @@
 package stepdefinition;
 
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
@@ -13,9 +12,7 @@ import utils.Base;
 
 import utils.Reporter;
 
-
-
-public class Hooks extends Base{
+public class Hooks extends Base {
 
     public static ExtentReports reports;
     public static ExtentTest test;
@@ -26,13 +23,13 @@ public class Hooks extends Base{
     }
 
     @Before
-    public void open(Scenario sc){
+    public void open(Scenario sc) throws Exception {
         openBrowser();
         test = reports.createTest(sc.getName());
     }
 
     @After
-    public void close(){
+    public void close() {
         driver.quit();
     }
 
@@ -40,5 +37,6 @@ public class Hooks extends Base{
     public static void flusing(){
         reports.flush();
     }
-
+  
 }
+ 
