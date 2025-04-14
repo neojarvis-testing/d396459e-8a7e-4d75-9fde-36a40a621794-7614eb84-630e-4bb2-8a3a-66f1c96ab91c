@@ -1,7 +1,7 @@
 Feature: Reliance Jewels Website Navigation
 
 @T
-Scenario: User locates a store and explores Vivaham offerings
+Scenario: TestCase3 User locates a store and explores Vivaham offerings
 
       Given the user is on the Reliance Jewels homepage
 
@@ -18,7 +18,7 @@ Scenario: User locates a store and explores Vivaham offerings
       And they explore the offerings for Delhi
 
   @Test2
-  Scenario: Validate all footer links and functionalities
+  Scenario: TestCase8 Validate all footer links and functionalities
 
     Given the user is on the homepagesss
 

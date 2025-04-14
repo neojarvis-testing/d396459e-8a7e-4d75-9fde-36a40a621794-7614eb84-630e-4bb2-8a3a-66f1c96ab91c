@@ -1,6 +1,6 @@
 Feature: Navigate and filter products on Reliance Jewels website
 
-  Scenario: User navigates through the Earrings section and applies filters
+  Scenario: TestCase5 User navigates through the Earrings section and applies filters
     Given the user is on the homepagess
     When the Reliance Jewels logo title "Online Shopping in India" is visible
     

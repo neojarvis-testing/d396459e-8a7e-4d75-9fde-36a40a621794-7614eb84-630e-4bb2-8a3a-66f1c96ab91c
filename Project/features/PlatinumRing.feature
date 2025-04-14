@@ -1,6 +1,6 @@
 Feature: Reliance Jewels Website Navigation and Purchase Flow
 
-Scenario: Comprehensive Navigation and Purchase Process
+Scenario: TestCase6 Comprehensive Navigation and Purchase Process
 
     Given the user has successfully navigated to the homepage
     When the user moves the cursor over the Rings section in the navigation bar

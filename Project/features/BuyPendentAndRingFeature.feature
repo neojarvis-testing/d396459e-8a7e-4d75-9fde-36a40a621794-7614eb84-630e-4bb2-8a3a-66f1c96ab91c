@@ -1,7 +1,7 @@
 Feature: Buy Pendents and Rings
 
   @Test1
-  Scenario: Buying pendents from Reliance-Jewels
+  Scenario: TestCase1 Buying pendents from Reliance-Jewels
     Given the user hovers over pendents
     When the user applies the gender filter
     Then the user selects additional filters
@@ -13,7 +13,7 @@ Feature: Buy Pendents and Rings
 
 
   @Test2
-  Scenario Outline: Purchasing the Ring from Reliance-Jewels
+  Scenario Outline: TestCase10 Purchasing the Ring from Reliance-Jewels
     Given the user initiates the search functionality
     When the user inputs "<item>" into the designated search field
     And the user confirms the search by pressing the Enter key

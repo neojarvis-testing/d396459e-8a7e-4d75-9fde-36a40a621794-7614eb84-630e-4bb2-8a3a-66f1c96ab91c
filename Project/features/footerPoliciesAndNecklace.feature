@@ -1,7 +1,7 @@
 Feature: Necklace Purchase Journey And Footer Policies Validation
 
   @src1  
-  Scenario: Complete Necklace Purchase and Cart Verification
+  Scenario: TestCase2 Complete Necklace Purchase and Cart Verification
     Given the user is on the website homepage
     Then the Reliance Jewels logo should be displayed
     
@@ -25,7 +25,7 @@ Feature: Necklace Purchase Journey And Footer Policies Validation
 
 
   @src2
-  Scenario: Validate footer policies links and titles with detailed checks
+  Scenario: TestCase9 Validate footer policies links and titles with detailed checks
     Given the user lands on the homepage and observes the layout to ensure accessibility
     When the user interacts with each footer policy link by clicking the user will be directed to the associated URL for the policy
     Then the user should exit out of homepage.

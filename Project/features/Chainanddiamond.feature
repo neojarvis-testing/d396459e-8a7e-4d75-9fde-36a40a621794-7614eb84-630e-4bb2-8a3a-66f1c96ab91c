@@ -1,7 +1,7 @@
 Feature: Chain And Diamond Actions
 
 @TS1
-Scenario: Diamond
+Scenario: TestCase4 Buying Diamond from Reliance-Jewels
 
 Given User lands on the homepage and hovers over the earring
 
@@ -17,7 +17,7 @@ Then User captures screenshot and verifies it
 
 
 @TS2
-Scenario: Chain
+Scenario: TestCase7 Buying Chain from Reliance-Jewels
 
 Given User lands on the homepage and hovers on the chain options
 
