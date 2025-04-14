@@ -5,9 +5,9 @@ utils/Base.class
 stepdefinition/VivahamStepdefintion.class
 utils/LoggerHandler.class
 stepdefinition/HomepageFooterSteps.class
+runner/TestRun_Abarna.class
 utils/Screenshots.class
 uistore/HomepageFooterLocators.class
-runner/TestRun.class
 utils/ExcelReader.class
 utils/Reporter.class
 stepdefinition/Hooks.class
