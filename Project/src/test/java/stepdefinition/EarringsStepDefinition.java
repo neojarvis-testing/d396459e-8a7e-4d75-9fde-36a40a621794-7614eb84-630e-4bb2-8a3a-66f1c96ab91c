@@ -14,8 +14,8 @@ public class EarringsStepDefinition {
 
     HomepageEarringsAction home = new HomepageEarringsAction();
 
-    @Given("the user is on the homepage")
-    public void the_user_is_on_the_homepage() {
+    @Given("the user is on the homepagess")
+    public void the_user_is_on_the_homepagess() {
         System.out.println("HomePage of Aplication");
     }
 

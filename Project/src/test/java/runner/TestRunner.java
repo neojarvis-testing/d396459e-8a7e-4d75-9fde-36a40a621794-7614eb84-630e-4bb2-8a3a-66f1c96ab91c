@@ -7,6 +7,6 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "./features", glue="stepdefinition")
-public class TestRunner_Gautam {
+public class TestRunner {
 
 }

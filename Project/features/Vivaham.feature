@@ -1,6 +1,6 @@
 Feature: Reliance Jewels Website Navigation
 
-@Test1
+@T
 Scenario: User locates a store and explores Vivaham offerings
 
       Given the user is on the Reliance Jewels homepage
@@ -20,7 +20,7 @@ Scenario: User locates a store and explores Vivaham offerings
   @Test2
   Scenario: Validate all footer links and functionalities
 
-    Given the user is on the homepage
+    Given the user is on the homepagesss
 
     When the user navigates to the About Us section
 

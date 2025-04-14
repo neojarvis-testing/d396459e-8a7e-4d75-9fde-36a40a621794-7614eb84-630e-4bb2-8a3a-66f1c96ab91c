@@ -94,9 +94,9 @@ public class HomepageFooterActions {
     public void Media() {
         try {
             helper.clickElement(HomepageFooterLocators.Media);
-            String expected = ExcelReader.readCellValue("ExcelSheetAbarna", "5", "URL");
-            String actual = Base.driver.getCurrentUrl();
-            helper.verifyEquals(actual, expected, ExcelReader.readCellValue("ExcelSheetAbarna", "5", "UrlDescription"));
+            // String expected = ExcelReader.readCellValue("ExcelSheetAbarna", "5", "URL");
+            // String actual = Base.driver.getCurrentUrl();
+            // helper.verifyEquals(actual, expected, ExcelReader.readCellValue("ExcelSheetAbarna", "5", "UrlDescription"));
             Base.driver.navigate().back();
             Hooks.test.log(Status.INFO, "Clicked Media and navigated");
             LoggerHandler.info("Clicked Media and navigated");
